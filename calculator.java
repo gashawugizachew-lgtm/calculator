@@ -11,6 +11,10 @@ public class calculator {
         return c * d;
     }
 
+    public static int div(int e, int f) {
+        return e / f;
+    }
+
     public static void main(String args[]) {
         System.out.println("Hello world");
         int add = sum(2, 3);
@@ -19,5 +23,8 @@ public class calculator {
         System.out.println(minus);
         int multi = mul(4, 6);
         System.out.println(multi);
+        int divi = div(12, 6);
+        System.out.println(divi);
+
     }
 }
